@@ -1,0 +1,17 @@
+# Web framework
+fastapi>=0.115
+uvicorn[standard]>=0.34
+
+# Settings & validation (pydantic 2.11+ ships cp314 wheels)
+pydantic>=2.11
+pydantic-settings>=2.7
+
+# Stealth headless browser (Playwright Firefox under the hood)
+camoufox[geoip]>=0.4.11
+
+# HTML parsing / content extraction
+beautifulsoup4>=4.12
+lxml>=6.0
+
+# Fake data generation (names, etc.)
+Faker>=30.0
